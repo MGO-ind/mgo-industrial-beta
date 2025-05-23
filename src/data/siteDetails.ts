@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'MGO Industrial',
+    siteUrl: 'https://mgo-industrial-beta.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'MGO Industrial',
+        description: 'Impulsando la industria con soluciones confiables.',
     },
-    language: 'en-us',
-    locale: 'en-US',
+    language: 'es-MX',
+    locale: 'es-MX',
     siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
     googleAnalyticsId: '', // e.g. G-XXXXXXX,
 }
