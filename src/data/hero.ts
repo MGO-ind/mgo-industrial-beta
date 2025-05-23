@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Impulsamos tu operación con calidad energética.',
+    subheading: 'En MGO Industrial, somos especialistas en la distribución al por mayor de petróleo y productos petroleros, con más de una década de experiencia ofreciendo soluciones confiables y eficientes en México.',
     centerImageSrc: '/images/hero-mockup.png',
 }
