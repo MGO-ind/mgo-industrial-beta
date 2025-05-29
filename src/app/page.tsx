@@ -14,8 +14,6 @@ const HomePage: React.FC = () => {
       <Hero />
  
       <Container>
-        <Benefits />
-
         <Section
           id="pricing"
           title="Pricing"
@@ -23,6 +21,9 @@ const HomePage: React.FC = () => {
         >
           <Pricing />
         </Section>
+        <Benefits />
+
+        
 
         <Section
           id="testimonials"
