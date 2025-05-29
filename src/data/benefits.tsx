@@ -48,7 +48,7 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/parafina.png"
     },
     {
-        title: "Bank-Grade Security",
+        title: "Aditivos",
         description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
         bullets: [
             {
