@@ -26,8 +26,8 @@ const HomePage: React.FC = () => {
 
         <Section
           id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
+          title="Quiénes Somos"
+          description="Conectando energía con productividad desde 2010."
         >
           <Testimonials />
         </Section>

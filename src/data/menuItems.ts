@@ -3,14 +3,14 @@ import { IMenuItem } from "@/types";
 export const menuItems: IMenuItem[] = [
     {
         text: "Inicio",
-        url: "#features"
+        url: "#"
     },
     {
         text: "Quiénes Somos",
-        url: "#pricing"
+        url: "#testimonials"
     },
     {
         text: "Productos y Servicios",
-        url: "#testimonials"
+        url: "#features"
     }
 ];
