@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+//import Image from 'next/image';
 import { testimonials } from '@/data/testimonials';
 
 const Testimonials: React.FC = () => {
@@ -11,13 +11,13 @@ const Testimonials: React.FC = () => {
                     className=""
                 >
                     <div className="flex items-center mb-4 w-full justify-center lg:justify-start">
-                        <Image
+                        {/*<Image
                             src={testimonial.avatar}
                             alt={`${testimonial.name} avatar`}
                             width={50}
                             height={50}
                             className="rounded-full shadow-md"
-                        />
+                        />*/}
                         <div className="ml-4">
                             <h3 className="text-lg font-semibold text-secondary">{testimonial.name}</h3>
                             <p className="text-sm text-foreground-accent">{testimonial.role}</p>
