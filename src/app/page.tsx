@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing/Pricing";
-import FAQ from "@/components/FAQ";
+//import FAQ from "@/components/FAQ";
 import Benefits from "@/components/Benefits/Benefits";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
           <Testimonials />
         </Section>
 
-        <FAQ />
+        {/*<FAQ />*/}
 
      
         
