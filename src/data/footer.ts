@@ -7,7 +7,7 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Energía confiable para tu industria.",
     quickLinks: [
         {
             text: "Features",
@@ -27,7 +27,7 @@ export const footerDetails: {
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
+        twitter: 'https://twitter.com',
         facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
         linkedin: 'https://www.linkedin.com',
