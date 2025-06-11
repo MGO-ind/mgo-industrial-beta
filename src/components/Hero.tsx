@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import AppStoreButton from './AppStoreButton';
+import { motion } from "framer-motion"
 
 
 import { heroDetails } from '@/data/hero';
@@ -21,8 +22,17 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="text-center">
-                <h1 className="text-4xl md:text-6xl md:leading-tight font-bold text-foreground max-w-lg md:max-w-2xl mx-auto">{heroDetails.heading}</h1>
-                <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p>
+                <motion.div
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.4,
+                        scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+                }}>
+                        <h1 className="text-4xl md:text-6xl md:leading-tight font-bold text-foreground max-w-lg md:max-w-2xl mx-auto">{heroDetails.heading}</h1>
+                        <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p>
+                </motion.div>
+                
                 <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
                     <AppStoreButton dark />
 
