@@ -9,7 +9,7 @@ import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
 import Container from './Container';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
-import { FaWhatsapp } from 'react-icons/fa6';
+//import { FaWhatsapp } from 'react-icons/fa6';
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ const Header: React.FC = () => {
                         ))}
                         <li>
                             <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-2 py-3 rounded-full transition-colors">
-                                <FaWhatsapp className="min-w-fit w-5 h-5 md:w-7 md:h-7" />
+                                {/*<FaWhatsapp className="min-w-fit w-5 h-5 md:w-7 md:h-7" />*/}
                                 WhatsApp
                             </Link>
                         </li>
