@@ -10,15 +10,15 @@ export const footerDetails: {
     subheading: "Energía confiable para tu industria.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Quienes Somos",
             url: "#features"
         },
         {
-            text: "Pricing",
+            text: "Productos y Servicios",
             url: "#pricing"
         },
         {
-            text: "Testimonials",
+            text: "Contacto",
             url: "#testimonials"
         }
     ],

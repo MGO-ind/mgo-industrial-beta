@@ -12,5 +12,9 @@ export const menuItems: IMenuItem[] = [
     {
         text: "Productos y Servicios",
         url: "#features"
+    },
+    {
+        text: "Contacto",
+        url: "#cta"
     }
 ];
