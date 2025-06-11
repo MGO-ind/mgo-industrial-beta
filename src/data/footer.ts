@@ -11,15 +11,15 @@ export const footerDetails: {
     quickLinks: [
         {
             text: "Quienes Somos",
-            url: "#features"
+            url: "#testimonials"
         },
         {
             text: "Productos y Servicios",
-            url: "#pricing"
+            url: "#features"
         },
         {
             text: "Contacto",
-            url: "#testimonials"
+            url: "#pricing"
         }
     ],
     email: ' ',
