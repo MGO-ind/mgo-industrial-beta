@@ -24,8 +24,9 @@ const Header: React.FC = () => {
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <Image src={siteDetails.centerImageSrc} alt="Logo" /> 
+                        
                         <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
+                            <Image src={siteDetails.centerImageSrc} alt="Logo" /> 
                             {siteDetails.siteName}
                         </span>
                     </Link>
