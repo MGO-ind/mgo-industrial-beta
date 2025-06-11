@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                     </Link>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex space-x-7">
+                    <ul className="hidden md:flex space-x-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
                                 <Link href={item.url} className="text-foreground hover:text-foreground-accent transition-colors">
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
+                            <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-10 py-3 rounded-full transition-colors">
                             <FaWhatsapp className="min-w-fit w-5 h-5 md:w-7 md:h-7" />
                                 WhatsApp
                             </Link>
