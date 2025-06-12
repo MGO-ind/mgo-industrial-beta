@@ -10,7 +10,7 @@ const Testimonials: React.FC = () => {
                     key={index}
                     className=""
                 >
-                    <div className="flex items-center mb-4 w-full justify-center lg:justify-start">
+                    <div className="flex items-center text-center mb-4 w-full justify-center lg:justify-start">
                         {/*<Image
                             src={testimonial.avatar}
                             alt={`${testimonial.name} avatar`}
