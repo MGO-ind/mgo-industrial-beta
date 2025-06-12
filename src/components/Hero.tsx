@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 
 import AppStoreButton from './AppStoreButton';
-import { motion } from "framer-motion"
 
 
 import { heroDetails } from '@/data/hero';
@@ -16,15 +15,7 @@ const Hero: React.FC = () => {
             <div className="absolute left-0 top-0 bottom-0 -z-10 w-full">
                 <div className="absolute inset-0 h-full w-full bg-hero-background bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_60%,transparent_100%)]">
                 </div>
-                 <motion.div className="flex flex-col w-full"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-                duration: 0.4,
-                scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
-            }}
-            style={ball}
-        />
+                
             </div>
 
             <div className="absolute left-0 right-0 bottom-0 backdrop-blur-[2px] h-40 bg-gradient-to-b from-transparent via-[rgba(233,238,255,0.5)] to-[rgba(202,208,230,0.5)]">
@@ -56,11 +47,5 @@ const Hero: React.FC = () => {
     );
 };
 
-const ball = {
-    width: 100,
-    height: 100,
-    backgroundColor: "#dd00ee",
-    borderRadius: "50%",
-}
 
 export default Hero;
