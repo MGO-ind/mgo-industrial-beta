@@ -6,7 +6,8 @@ import Benefits from "@/components/Benefits/Benefits";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
 import CTA from "@/components/CTA";
-import CarruselInf from "@/components/Carrusel";
+import CarruselInf from "@/components/carrusel";
+
 
 const HomePage: React.FC = () => {
   return (
