@@ -51,3 +51,7 @@ export interface ISocials {
     x?: string;
     [key: string]: string | undefined;
 }
+
+export interface ICarrusselItem {
+    imageSrc: string; 
+}
