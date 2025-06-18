@@ -41,8 +41,8 @@ const Header: React.FC = () => {
                         ))}
                         <li>
                             <Link href="https://wa.me/13311962046" target="_blank" className="text-black bg-primary hover:bg-primary-accent px-5 py-3 rounded-full transition-colors">
-                                {/*WhatsApp*/} asd
-                                <FaWhatsapp />
+                                {/*WhatsApp <FaWhatsapp />*/} 
+                                WhatsApp
                                 
                             </Link>
                         </li>
