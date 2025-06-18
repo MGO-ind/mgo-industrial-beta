@@ -40,7 +40,7 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#cta" className="text-black bg-primary hover:bg-primary-accent px-5 py-3 rounded-full transition-colors">
+                            <Link href="https://wa.me/13311962046" target="_blank" className="text-black bg-primary hover:bg-primary-accent px-5 py-3 rounded-full transition-colors">
                                 {/*<FaWhatsapp className="min-w-fit w-5 h-5 md:w-7 md:h-7" />*/}
                                 WhatsApp
                             </Link>
