@@ -1,6 +1,7 @@
 "use client"
 import { carruselItems } from "@/data/carrusel"
 import React from "react";
+import Image from "next/image";
 const CarruselInf: React.FC = () => {
     return(
         <>
@@ -11,7 +12,7 @@ const CarruselInf: React.FC = () => {
         {carruselItems.map((carruselItems, index) => (
             <div key={index} className="mb-7">
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src={carruselItems.imageSrc} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                    <Image src={carruselItems.imageSrc} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                 </div>
             </div>
         ))}
