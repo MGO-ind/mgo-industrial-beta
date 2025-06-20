@@ -54,7 +54,7 @@ export interface ISocials {
 
 export interface ICarrusselItem {
     imageSrc: string; 
-    current: boolean;
+    current?: boolean;
     slide: string;
     dataCsarousel: string;
 }
