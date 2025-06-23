@@ -1,9 +1,16 @@
 
 import { testimonials } from '@/data/testimonials';
+import { motion } from 'framer-motion';
 
 const Testimonials: React.FC = () => {
     return (
+       
+          
         <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:grid-cols-2 lg:max-w-full">
+             <motion.div
+            className="py-16 px-4 sm:px-6 lg:px-8 bg-hero-background"
+            initial={{ opacity: 0, y: 20 }} >
+            
             {testimonials.map((testimonial, index) => (
                 <div
                     key={index}
@@ -25,6 +32,8 @@ const Testimonials: React.FC = () => {
                     <p className="text-foreground-accent text-center lg:text-center">&quot;{testimonial.message}&quot;</p>
                 </div>
             ))}
+
+              </motion.div>
 
         </div>
     );
