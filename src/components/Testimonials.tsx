@@ -1,4 +1,4 @@
-
+"use client";
 import { testimonials } from '@/data/testimonials';
 import { motion } from 'framer-motion';
 
