@@ -9,7 +9,8 @@ const Testimonials: React.FC = () => {
         <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:grid-cols-2 lg:max-w-full">
              <motion.div
             className="py-16 px-4 sm:px-6 lg:px-8 bg-hero-background"
-            initial={{ opacity: 0, scale: 0 }}
+            initial="offscreen"
+            whileInView="onscreen"
             animate={{ opacity: 1, scale: 1 }}
             transition={{
                 duration: 0.4,
