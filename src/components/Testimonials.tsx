@@ -1,6 +1,24 @@
 "use client";
 import { testimonials } from '@/data/testimonials';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
+
+const containerVariants: Variants = {
+    offscreen: {
+        opacity: 0,
+        y: 100
+    },
+    onscreen: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            type: "spring",
+            bounce: 0.2,
+            duration: 0.9,
+            delayChildren: 0.2,
+            staggerChildren: 0.1,
+        }
+    }
+};
 
 const Testimonials: React.FC = () => {
     return (
@@ -9,6 +27,7 @@ const Testimonials: React.FC = () => {
         <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:grid-cols-2 lg:max-w-full">
              <motion.div
             className="py-16 px-4 sm:px-6 lg:px-8 bg-hero-background"
+            variants={containerVariants}
             initial="offscreen"
             whileInView="onscreen"
             animate={{ opacity: 1, scale: 1 }}
