@@ -3,7 +3,7 @@ import { IMenuItem } from "@/types";
 export const menuItems: IMenuItem[] = [
     {
         text: "Inicio",
-        url: "#"
+        url: "/"
     },
     {
         text: "Quiénes Somos",

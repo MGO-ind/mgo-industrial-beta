@@ -13,9 +13,6 @@ const Products: React.FC = () => {
         
         <Benefits />
 
-        
-
-   
       </Container>
     </>
   );
