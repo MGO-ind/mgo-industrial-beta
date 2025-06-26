@@ -43,7 +43,7 @@ const Testimonials: React.FC = () => {
           
         <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:grid-cols-2 lg:max-w-full">
              <motion.div
-            className="flex flex-wrap flex-col items-center justify-center gap-2 lg:flex-row lg:gap-20 lg:flex-nowrap mb-24"
+            className="flex flex-wrap flex-col items-center justify-center gap-2 lg:flex-row lg:flex-nowrap mb-24"
                 variants={containerVariants}
                 initial="offscreen"
                 whileInView="onscreen"
