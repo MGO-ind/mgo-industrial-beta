@@ -41,7 +41,7 @@ const Testimonials: React.FC = () => {
     return (
        
           
-        <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:grid-cols-2 lg:max-w-full">
+        <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:max-w-full">
              <motion.div
             className="flex flex-wrap flex-col items-center justify-center lg:flex-row lg:flex-nowrap"
                 variants={containerVariants}
