@@ -20,21 +20,34 @@ const containerVariants: Variants = {
     }
 };
 
+export const childVariants = {
+    offscreen: {
+        opacity: 0,
+        x: -50,
+    },
+    onscreen: {
+        opacity: 1,
+        x: 0,
+        transition: {
+            type: "spring",
+            bounce: 0.2,
+            duration: 1,
+        }
+    },
+};
+
+
 const Testimonials: React.FC = () => {
     return (
        
           
         <div className="grid gap-14 max-w-lg w-full mx-auto lg:gap-8 lg:grid-cols-2 lg:max-w-full">
              <motion.div
-            className="py-16 px-4 sm:px-6 lg:px-8 bg-hero-background"
-            variants={containerVariants}
-            initial="offscreen"
-            whileInView="onscreen"
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-                duration: 0.4,
-                scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
-            }} >
+            className="flex flex-wrap flex-col items-center justify-center gap-2 lg:flex-row lg:gap-20 lg:flex-nowrap mb-24"
+                variants={containerVariants}
+                initial="offscreen"
+                whileInView="onscreen"
+                viewport={{ once: true }} >
             
             {testimonials.map((testimonial, index) => (
                 <div
