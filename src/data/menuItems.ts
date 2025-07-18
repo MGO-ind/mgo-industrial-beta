@@ -7,7 +7,7 @@ export const menuItems: IMenuItem[] = [
     },
     {
         text: "Quiénes Somos",
-        url: "#testimonials"
+        url: "/#testimonials"
     },
     {
         text: "Productos y Servicios",
