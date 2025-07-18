@@ -12,4 +12,4 @@ const ContactoInfo = () => {
     );
 }
 
-export default ContactoInfo;
+export default ContactoInfo; 
