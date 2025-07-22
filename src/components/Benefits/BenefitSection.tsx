@@ -6,6 +6,7 @@ import { motion, Variants } from "framer-motion"
 import BenefitBullet from "./BenefitBullet";
 import SectionTitle from "../SectionTitle";
 import { IBenefit } from "@/types";
+import PlayStoreButton from "../PlayStoreButton";
 
 interface Props {
     benefit: IBenefit;
@@ -76,6 +77,8 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
                             <p className="mt-1.5 mx-auto lg:ml-0 leading-normal text-foreground-accent">
                                 {description}
                             </p>
+                            <PlayStoreButton/>
+                            
                         </motion.div>
 
                         <div className="mx-auto lg:ml-0 w-full">
