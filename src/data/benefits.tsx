@@ -28,8 +28,7 @@ export const benefits: IBenefit[] = [
         
         imageSrc: "/images/oil2.png",      
         btnName: "Conoce Nuestros Productos",
-        btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
-        
+        btHref: "/producto/grupo_1", 
     },
     {
         title: "Parafina Blanca en Bloques",
@@ -53,7 +52,7 @@ export const benefits: IBenefit[] = [
         ],
         imageSrc: "/images/parafina.png",
         btnName: "Conoce la parefina",
-        btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
+        btHref: "/producto/grupo_2", 
         
     },
     {
@@ -78,7 +77,7 @@ export const benefits: IBenefit[] = [
         ],
         imageSrc: "/images/hero-mockup.png",
         btnName: "Conoce Nuestros Aditivos",
-        btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
+        btHref: "/producto/grupo_3", 
         
     },
 ]
