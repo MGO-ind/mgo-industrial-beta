@@ -2,6 +2,7 @@ import { FiBarChart2, FiBriefcase, FiTarget, FiTrendingUp} from "react-icons/fi"
 
 import { IBenefit } from "@/types"
 
+
 export const benefits: IBenefit[] = [
     {
         title: "Aceite Basico",
@@ -23,7 +24,12 @@ export const benefits: IBenefit[] = [
                 icon: <FiBriefcase size={26} />
             }
         ],
-        imageSrc: "/images/oil2.png"
+       
+        
+        imageSrc: "/images/oil2.png",      
+        btnName: "Google Play",
+        btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
+        
     },
     {
         title: "Parafina Blanca en Bloques",
@@ -45,7 +51,10 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/parafina.png"
+        imageSrc: "/images/parafina.png",
+        btnName: "Google Play",
+        btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
+        
     },
     {
         title: "Aditivos",
@@ -67,6 +76,9 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/hero-mockup.png"
+        imageSrc: "/images/hero-mockup.png",
+        btnName: "Google Play",
+        btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
+        
     },
 ]

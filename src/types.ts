@@ -7,6 +7,8 @@ export interface IBenefit {
     title: string;
     description: string;
     imageSrc: string;
+    btHref: string;
+    btnName: string;
     bullets: IBenefitBullet[]
 }
 
@@ -59,7 +61,3 @@ export interface ICarrusselItem {
     dataCsarousel: string;
 }
 
-export interface IBtnBenefit {
-    btHref: string;
-    btnName: string;
-}

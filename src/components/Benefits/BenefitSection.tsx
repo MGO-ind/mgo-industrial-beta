@@ -5,12 +5,11 @@ import { motion, Variants } from "framer-motion"
 
 import BenefitBullet from "./BenefitBullet";
 import SectionTitle from "../SectionTitle";
-import { IBenefit, IBtnBenefit } from "@/types";
+import { IBenefit } from "@/types";
 
 interface Props {
     benefit: IBenefit;
     imageAtRight?: boolean;
-    btnDataBenefit: IBtnBenefit;
 }
 
 const containerVariants: Variants = {
@@ -47,8 +46,8 @@ export const childVariants = {
     },
 };
 
-const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight, btnDataBenefit }: Props) => {
-    const { title, description, imageSrc, bullets } = benefit;
+const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight }: Props) => {
+    const { title, description, imageSrc, btHref, btnName, bullets } = benefit;
 
     return (
         <section className="benefit-section">
@@ -87,10 +86,10 @@ const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight, btnDataBenefi
                         </div>
 
                         <motion.div className="flex flex-col w-full" variants={childVariants}>
-                            <a href={btnDataBenefit.btHref} rel="noopener noreferrer">
+                            <a href={btHref} rel="noopener noreferrer">
                                 <button
                                     type="button"
-                                    className="flex items-center justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit bg-black"
+                                    className="flex items-center text-white justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit bg-black"
                                 >
                                     <div className="mr-3">
                                         
@@ -100,7 +99,7 @@ const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight, btnDataBenefi
                                             GET IT ON
                                         </div>
                                         <div className="-mt-1 font-sans text-xl font-semibold">
-                                            {btnDataBenefit.btnName}
+                                            {btnName}
                                         </div>
                                     </div>
                                 </button>
