@@ -11,7 +11,7 @@ export const menuItems: IMenuItem[] = [
     },
     {
         text: "Productos y Servicios",
-        url: "productos"
+        url: "/productos"
     },
     {
         text: "Contacto",
