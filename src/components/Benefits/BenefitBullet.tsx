@@ -20,24 +20,7 @@ const BenefitBullet: React.FC<IBenefitBullet> = ({ title, description, icon }: I
                     {description}
                 </p>
             </div>
-            <a href="/">
-                    <button
-                        type="button"
-                        className="flex items-center justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit bg-black"
-                    >
-                        <div className="mr-3">
-                            
-                        </div>
-                        <div>
-                            <div className="text-xs">
-                                GET IT ON
-                            </div>
-                            <div className="-mt-1 font-sans text-xl font-semibold">
-                                Google Play
-                            </div>
-                        </div>
-                    </button>
-                </a>
+            
         </motion.div>
     )
 }
