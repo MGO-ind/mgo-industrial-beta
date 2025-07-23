@@ -27,7 +27,7 @@ export const benefits: IBenefit[] = [
        
         
         imageSrc: "/images/oil2.png",      
-        btnName: "Google Play",
+        btnName: "Conoce Nuestros Productos",
         btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
         
     },
@@ -52,7 +52,7 @@ export const benefits: IBenefit[] = [
             }
         ],
         imageSrc: "/images/parafina.png",
-        btnName: "Google Play",
+        btnName: "Conoce la parefina",
         btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
         
     },
@@ -77,7 +77,7 @@ export const benefits: IBenefit[] = [
             }
         ],
         imageSrc: "/images/hero-mockup.png",
-        btnName: "Google Play",
+        btnName: "Conoce Nuestros Aditivos",
         btHref: "https://play.google.com/store", // Cambia esto según tu necesidad
         
     },
