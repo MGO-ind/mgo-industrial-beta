@@ -60,6 +60,6 @@ export interface ICarrusselItem {
 }
 
 export interface IBtnBenefit {
-    href: string;
-    name: string;
+    btHref: string;
+    btnName: string;
 }

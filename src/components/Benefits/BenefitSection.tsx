@@ -5,11 +5,12 @@ import { motion, Variants } from "framer-motion"
 
 import BenefitBullet from "./BenefitBullet";
 import SectionTitle from "../SectionTitle";
-import { IBenefit } from "@/types";
+import { IBenefit, IBtnBenefit } from "@/types";
 
 interface Props {
     benefit: IBenefit;
     imageAtRight?: boolean;
+    btnDataBenefit: IBtnBenefit;
 }
 
 const containerVariants: Variants = {
@@ -46,7 +47,7 @@ export const childVariants = {
     },
 };
 
-const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight }: Props) => {
+const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight, btnDataBenefit }: Props) => {
     const { title, description, imageSrc, bullets } = benefit;
 
     return (
@@ -86,7 +87,7 @@ const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight }: Props) => {
                         </div>
 
                         <motion.div className="flex flex-col w-full" variants={childVariants}>
-                            <a href="/">
+                            <a href={btnDataBenefit.btHref} rel="noopener noreferrer">
                                 <button
                                     type="button"
                                     className="flex items-center justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit bg-black"
@@ -99,7 +100,7 @@ const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight }: Props) => {
                                             GET IT ON
                                         </div>
                                         <div className="-mt-1 font-sans text-xl font-semibold">
-                                            Google Play
+                                            {btnDataBenefit.btnName}
                                         </div>
                                     </div>
                                 </button>
