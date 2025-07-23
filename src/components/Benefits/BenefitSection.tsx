@@ -46,7 +46,7 @@ export const childVariants = {
     },
 };
 
-const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
+const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight }: Props) => {
     const { title, description, imageSrc, bullets } = benefit;
 
     return (

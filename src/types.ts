@@ -59,7 +59,7 @@ export interface ICarrusselItem {
     dataCsarousel: string;
 }
 
-export interface BtnBenefit {
+export interface IBtnBenefit {
     href: string;
     name: string;
 }

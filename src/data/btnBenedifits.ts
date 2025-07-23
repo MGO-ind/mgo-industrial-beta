@@ -1,10 +1,15 @@
 export const btnBenefits = [
     {
         href: "/",
-        name: "Google Play"
+        name: "Conoce nuestros Productos"
     },
     {
         href: "/",
         name: "App Store"
+    },
+    {
+        href: "/",
+        name: "Conoce"
     }
+    
 ];
