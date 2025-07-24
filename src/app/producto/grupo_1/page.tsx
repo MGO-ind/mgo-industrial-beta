@@ -1,5 +1,6 @@
 //import FAQ from "@/components/FAQ";
 import Container from "@/components/Container";
+import FichaInfoPrev from "@/components/fichaPrev";
 
 const Products: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Products: React.FC = () => {
           <h1 className="text-3xl font-bold mb-6">Nuestros Productos</h1>
           <p className="text-lg mb-8">Descubre nuestra gama de productos diseñados para optimizar tu eficiencia energética.</p>
    
-  
+       <FichaInfoPrev/>
 
       </Container>
       </div>

@@ -6,7 +6,6 @@ import Pricing from "@/components/Pricing/Pricing";
 import Container from "@/components/Container";
 import Section from "@/components/Section";
 import CTA from "@/components/CTA";
-import ContactoInfo from "@/components/contacto";
 
 
 const HomePage: React.FC = () => {
@@ -22,21 +21,16 @@ const HomePage: React.FC = () => {
         >
           <Testimonials />
         </Section>
-
+        {/*<Benefits />*/}
+        {/*<FAQ />*/}
+        <CTA />
         <Section
-          id="pricing"
+          id="contacto"
           title="Contacto"
           description="¿Buscas un proveedor confiable? Estamos listos para ayudarte. Contáctanos y descubre cómo podemos optimizar tu abastecimiento energético."
         >
           <Pricing />
         </Section>
-        
-        {/*<Benefits />*/}
-        {/*<FAQ />*/}
-
-     <ContactoInfo/>
-        
-        <CTA />
       </Container>
     </>
   );
