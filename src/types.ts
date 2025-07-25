@@ -61,6 +61,12 @@ export interface ICarrusselItem {
     dataCsarousel: string;
 }
 
+export interface IBtnFichasLink {
+    btnHref: string;
+    titleFicha: string;
+    descripcionFicha: string;
+}
+
 export interface IBtnFichasLink2 {
     btnHref: string;
     titleFicha: string;
