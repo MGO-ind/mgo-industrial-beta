@@ -3,7 +3,7 @@ import { IBtnFichasLink } from "@/types";
 
   export const btnFichas: IBtnFichasLink[] = [
     {
-      btnHref: "/FichasTecnicas",
+      btnHref: "/Gpo1Fichas/MGO2S6163",
       titleFicha: "MGO2S6163 TDS",
       descripcionFicha: "Formulado para aceites de motores de 2 tiempos enfriados por aire, el paquete MGO2S6163 ofrece excelente detergencia, lubricación, baja generación de humo y contenido reducido de cenizas. Cumple con las especificaciones JASO M345 FB y FC, garantizando un rendimiento óptimo y limpio del motor.",
     },
