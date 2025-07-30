@@ -27,10 +27,10 @@ export const footerDetails: {
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com',
+        //twitter: 'https://twitter.com',
         facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
+        linkedin: 'https://www.linkedin.com/company/mgo-industrial',
         // threads: 'https://www.threads.net',
         instagram: 'https://www.instagram.com',
     }
