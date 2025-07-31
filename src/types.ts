@@ -85,5 +85,12 @@ export interface IBtnFichasLink4 {
     descripcionFicha: string;
 }
 
+export interface IDataFicha {
+    fichaTitle: string;
+    fichaDescription: string;
+    fichaDescription2: string;
+    fichaCuidados: string;
+}
+
 
 
