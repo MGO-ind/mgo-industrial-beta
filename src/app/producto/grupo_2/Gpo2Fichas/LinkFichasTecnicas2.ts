@@ -1,7 +1,7 @@
-import { IBtnFichasLink2 } from "@/types";
+import { IBtnFichasLink } from "@/types";
 
 
-  export const btnFichas2: IBtnFichasLink2[] = [
+  export const btnFichas2: IBtnFichasLink[] = [
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
       titleFicha: "MGO 5W40 TDS",

@@ -1,7 +1,7 @@
-import { IBtnFichasLink3 } from "@/types";
+import { IBtnFichasLink } from "@/types";
 
 
-  export const btnFichas3: IBtnFichasLink3[] = [
+  export const btnFichas3: IBtnFichasLink[] = [
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
       titleFicha: "MGOC106 TDS",

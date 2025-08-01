@@ -1,7 +1,7 @@
-import { IBtnFichasLink4 } from "@/types";
+import { IBtnFichasLink } from "@/types";
 
 
-  export const btnFichas4: IBtnFichasLink4[] = [
+  export const btnFichas4: IBtnFichasLink[] = [
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
       titleFicha: "MGO GRASA LITIO TDS",
