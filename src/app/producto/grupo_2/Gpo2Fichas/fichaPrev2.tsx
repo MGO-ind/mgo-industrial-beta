@@ -1,8 +1,8 @@
-import { IBtnFichasLink2 } from "@/types";
+import { IBtnFichasLink } from "@/types";
 import React from "react";
 
 interface FichaInfoPrevProps2 {
-    PrevFichas: IBtnFichasLink2;
+    PrevFichas: IBtnFichasLink;
 }
 
 const FichaInfoPrev2: React.FC<FichaInfoPrevProps2> = ({ PrevFichas }) => {
