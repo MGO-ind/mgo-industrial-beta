@@ -1,36 +1,36 @@
-import { IBtnFichasLink } from "@/types";
+import { IBtnFichasLink3 } from "@/types";
 
 
-  export const btnFichas3: IBtnFichasLink[] = [
+  export const btnFichas3: IBtnFichasLink3[] = [
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
-      titleFicha: "MGO2S6163 TDS",
-      descripcionFicha: "Formulado para aceites de motores de 2 tiempos enfriados por aire, el paquete MGO2S6163 ofrece excelente detergencia, lubricación, baja generación de humo y contenido reducido de cenizas. Cumple con las especificaciones JASO M345 FB y FC, garantizando un rendimiento óptimo y limpio del motor.",
+      titleFicha: "MGOC106 TDS",
+      descripcionFicha: "Aditivo con alto contenido de alcalinidad (400 TBN), ideal como booster para incrementar el número total de base en aceites para motores diésel, gasolina o cilindros marinos. Ofrece excelente detergencia a alta temperatura, estabilidad térmica y neutralización rápida de ácidos fuertes. Alta solubilidad en aceite y eficacia comprobada en formulaciones que requieren reforzar la resistencia a la oxidación y la acidez. ",
     },
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
-      titleFicha: "MGO2T6165",
-      descripcionFicha: "Formulado para aceites de motores de motocicletas de 2 tiempos, el paquete MGO2T6165 ofrece excelente detergencia, lubricación, bajo contenido de cenizas y mínima emisión de humo. Cumple con las especificaciones JASO FB, FC, FD y API TC, garantizando alto desempeño y protección del motor en condiciones exigentes.",
+      titleFicha: "MGOC107 TDS",
+      descripcionFicha: "Aditivo con alta alcalinidad (400 TBN), excelente solubilidad en aceite y gran capacidad para neutralizar ácidos fuertes. Brinda detergencia a altas temperaturas, estabilidad térmica y mejora el desempeño en aceites de motores a diésel, gasolina y otras aplicaciones industriales. Ideal como booster para incrementar el TBN en formulaciones que requieren protección prolongada contra la acidez y la oxidación.",
     },
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
-      titleFicha: "MGO4S6164 TDS",
-      descripcionFicha: "El paquete MGO4S6164 está diseñado para aceites de motores de 4 tiempos, proporcionando excelente detergencia, dispersión a bajas temperaturas, y propiedades antioxidantes y anti desgaste. Ideal para formulaciones de aceites con viscosidades 10W-30, 10W-40, y 15W-40, cumpliendo con las especificaciones API SL y SJ, entre otras.",
+      titleFicha: "MGOC154",
+      descripcionFicha: "Dispersante sin cenizas a base de poliisobutileno (Mn=1300), diseñado para mejorar la detergencia, dispersión y resistencia a la oxidación en aceites de motor. Previene la formación de depósitos y barnices, y mejora la compatibilidad con sellos de caucho fluorado. Libre de cloro, ofrece excelente desempeño en combinación con detergentes, antioxidantes e inhibidores de corrosión.",
     },
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
-      titleFicha: "MGO6078",
-      descripcionFicha: "Formulado para aceites de motores a diésel, el paquete MGO6078 CI-4 proporciona excelente detergencia a alta temperatura, dispersión de hollín, y resistencia a la corrosión y oxidación. Recomendado para aceites API CI-4, especialmente en formulaciones 15W-40 y 20W-50 con básicos del grupo II y mejorador de viscosidad. Ideal para motores que operan en condiciones exigentes y que requieren protección extendida y desempeño confiable.",
+      titleFicha: "MGOC154B TDS",
+      descripcionFicha: "Aditivo dispersante sin cenizas formulado a partir de poliisobutileno (Mn=1300), diseñado para evitar la formación de depósitos y barnices en pistones, mejorar la detergencia, la resistencia a la oxidación y la compatibilidad con sellos de caucho fluorado. Libre de cloro y altamente compatible con detergentes, antioxidantes e inhibidores de corrosión, es ideal para formulaciones de aceites de motor de alto desempeño.",
     },
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
-      titleFicha: "MGO6079 TDS",
-      descripcionFicha: "El paquete MGO6079 CI-4 está formulado para aceites de motores diésel de alto desempeño. Ofrece excelente detergencia a altas temperaturas, eficaz dispersión del hollín y fuerte resistencia a la oxidación y corrosión. Recomendado para formulaciones que cumplan con la norma API CI-4, especialmente en grados 15W-40 y 20W-50, utilizando básicos del grupo II y mejorador de viscosidad (OCP).",
+      titleFicha: "MGOC202",
+      descripcionFicha: "Aditivo multifuncional tipo ZDDP (ditiofosfato de zinc) que ofrece protección anticorrosiva, antioxidante, antidesgaste y para presión extrema. Ideal para formulaciones de aceites de motor, engranajes e hidráulicos. Alta solubilidad y compatibilidad con otros aditivos. Previene el incremento de viscosidad por altas temperaturas y protege los cojinetes contra la corrosión. Dosis recomendada: 0.5% – 3.0%.",
     },
     {
       btnHref: "/producto/grupo_1/MGO2S6163",
-      titleFicha: "MGO6088E TDS",
-      descripcionFicha: "El paquete MGO6088E está diseñado para la formulación de aceites para motores diésel que cumplan con las especificaciones API CK-4 y CJ-4. Brinda excelente detergencia, protección antidesgaste, dispersión de hollín y estabilidad antioxidante. Ideal para aceites multigrado como 10W-30, 10W-40, 15W-40 y 20W-50, utilizando bases del Grupo II o superior, garantizando un desempeño superior en condiciones severas de operación.",
+      titleFicha: "MGOC820",
+      descripcionFicha: "Aditivo formulado para reducir el punto de congelación y mejorar la fluidez de aceites a bajas temperaturas. Es compatible con aceites para motor e industriales, facilitando su desempeño en climas fríos o condiciones extremas. Dosis recomendada: 0.1% – 0.5%. Ideal para mejorar la operatividad de lubricantes en ambientes de baja temperatura.",
     },
     
   ];
