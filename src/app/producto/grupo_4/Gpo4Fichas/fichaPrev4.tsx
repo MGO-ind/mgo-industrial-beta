@@ -1,11 +1,11 @@
-import { IBtnFichasLink4 } from "@/types";
+import { IBtnFichasLink } from "@/types";
 import React from "react";
 
-interface FichaInfoPrevProps {
-    PrevFichas: IBtnFichasLink4;
+interface FichaInfoPrevProps4 {
+    PrevFichas: IBtnFichasLink;
 }
 
-const FichaInfoPrev: React.FC<FichaInfoPrevProps> = ({ PrevFichas }) => {
+const FichaInfoPrev4: React.FC<FichaInfoPrevProps4> = ({ PrevFichas }) => {
     return (
     <>
         <a href={PrevFichas.btnHref} className="block max-w-sm mt-2 p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 hover:shadow-xl hover:shadow-black transition-shadow duration-300">
@@ -19,4 +19,4 @@ const FichaInfoPrev: React.FC<FichaInfoPrevProps> = ({ PrevFichas }) => {
     );
 }
 
-export default FichaInfoPrev; 
+export default FichaInfoPrev4; 
