@@ -11,12 +11,13 @@ const Ficha1 = () => {
 
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
-                        
-                        <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Descripción</h2>
-                        <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaDescription}</p>
-                        <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Especificaciones</h2>
+                        <h3 className="text-xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-xl">Paquete de Aditivos para Aceites de Motores de 2 Tiempos Enfriados por Aire</h3>
 
-                        <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Envasado, Almacenamiento, Transporte</h2>
+                        <h3 className="text-xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-xl">Descripción</h3>
+                        <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaDescription}</p>
+                        <h2 className="text-xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-xl">Especificaciones</h2>
+
+                        <h3 className="text-xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-xl">Envasado, Almacenamiento, Transporte</h3>
 
                         <p className="mx-auto max-w-xl md:px-5">
                             <ul className="list-disc pl-5">
