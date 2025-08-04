@@ -18,7 +18,7 @@ import { IBtnFichasLink } from "@/types";
       descripcionFicha: "El paquete MGO4S6164 está diseñado para aceites de motores de 4 tiempos, proporcionando excelente detergencia, dispersión a bajas temperaturas, y propiedades antioxidantes y anti desgaste. Ideal para formulaciones de aceites con viscosidades 10W-30, 10W-40, y 15W-40, cumpliendo con las especificaciones API SL y SJ, entre otras.",
     },
     {
-      btnHref: "/producto/grupo_1/MGO2S6163",
+      btnHref: "/producto/grupo_1/MGO2T6165",
       titleFicha: "MGO6078",
       descripcionFicha: "Formulado para aceites de motores a diésel, el paquete MGO6078 CI-4 proporciona excelente detergencia a alta temperatura, dispersión de hollín, y resistencia a la corrosión y oxidación. Recomendado para aceites API CI-4, especialmente en formulaciones 15W-40 y 20W-50 con básicos del grupo II y mejorador de viscosidad. Ideal para motores que operan en condiciones exigentes y que requieren protección extendida y desempeño confiable.",
     },
