@@ -17,20 +17,20 @@ const Ficha1 = () => {
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
                         
-                        <div className="relative overflow-x-auto shadow-md rounded-xl text-xl max-w-5xl mx-auto md:px-5">
-                            <table className="w-full rtl:text-right text-gray-500 dark:text-gray-400">
-                                <thead className="text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <div className="relative overflow-x-auto shadow-md rounded-xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-zinc-400">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-zinc-400">
                                     <tr>
                                         <th className="px-6 py-3">ESPECIFICACIONES JASO</th>
                                         <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-700 border-zinc-200">
                                         <td className="px-6 py-3">FB</td>
                                         <td className="px-6 py-3">4.0%</td>
                                     </tr>
-                                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-700 border-zinc-200">
                                         <td className="px-6 py-3">FC</td>
                                         <td className="px-6 py-3">5.5%</td>
                                     </tr>
