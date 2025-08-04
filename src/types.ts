@@ -67,28 +67,9 @@ export interface IBtnFichasLink {
     descripcionFicha: string;
 }
 
-export interface IBtnFichasLink2 {
-    btnHref: string;
-    titleFicha: string;
-    descripcionFicha: string;
-}
-
-export interface IBtnFichasLink3 {
-    btnHref: string;
-    titleFicha: string;
-    descripcionFicha: string;
-}
-
-export interface IBtnFichasLink4 {
-    btnHref: string;
-    titleFicha: string;
-    descripcionFicha: string;
-}
-
 export interface IDataFicha {
     fichaTitle: string;
     fichaDescription: string;
-    fichaDescription2: string;
     fichaCuidados: string;
 }
 

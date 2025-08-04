@@ -13,7 +13,7 @@ const Ficha1 = () => {
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
 
                         <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaDescription}</p>
-                        <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaDescription2}</p>
+                        <p className="mx-auto max-w-xl md:px-5"></p>
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Cuidados</h2>
 
                         <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaCuidados}</p>
