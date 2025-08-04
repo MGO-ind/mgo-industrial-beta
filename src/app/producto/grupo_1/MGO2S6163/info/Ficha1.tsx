@@ -17,19 +17,19 @@ const Ficha1 = () => {
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
                         <table className="mx-auto max-w-5xl md:px-5">
-                            <tbody className="text-center align-middle  border border-gray-300">
+                            <tbody className="text-center align-middle rounded-full border border-gray-300">
 
                                 <th>
-                                    <td className="font-semibold">ESPECIFICACIONES JASO</td>
-                                    <td className="font-semibold">Tasa de Tratamiento (%wt)</td>
+                                    <td className="font-semibold border border-gray-300 ">ESPECIFICACIONES JASO</td>
+                                    <td className="font-semibold border border-gray-300">Tasa de Tratamiento (%wt)</td>
                                 </th>
                                 <tr>
-                                    <td className="justify-center text-center">FB</td>
-                                    <td className="justify-center text-center">4.0%</td>
+                                    <td className="justify-center text-center border border-gray-300">FB</td>
+                                    <td className="justify-center text-center border border-gray-300">4.0%</td>
                                 </tr>
                                 <tr>
-                                    <td className="justify-center text-center">FC</td>
-                                    <td className="justify-center text-center">5.5%</td>
+                                    <td className="justify-center text-center border border-gray-300">FC</td>
+                                    <td className="justify-center text-center border border-gray-300">5.5%</td>
                                 </tr>
                             </tbody>
                         </table>
