@@ -12,25 +12,44 @@ const Ficha1 = () => {
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4">Paquete de Aditivos para Aceites de Motores de 2 Tiempos Enfriados por Aire</h3>
-
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
                         
                         <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
-                            <table className="w-full rtl:text-right text-zinc-500 dark:text-zinc-400">
-                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-zinc-400">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
                                     <tr>
                                         <th className="px-6 py-3">ESPECIFICACIONES JASO</th>
                                         <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-700 border-zinc-200">
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
                                         <td className="px-6 py-3">FB</td>
                                         <td className="px-6 py-3">4.0%</td>
                                     </tr>
-                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-700 border-zinc-200">
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">FC</td>
+                                        <td className="px-6 py-3">5.5%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
+                                    <tr>
+                                        <th className="px-6 py-3">ESPECIFICACIONES JASO</th>
+                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">FB</td>
+                                        <td className="px-6 py-3">4.0%</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
                                         <td className="px-6 py-3">FC</td>
                                         <td className="px-6 py-3">5.5%</td>
                                     </tr>
