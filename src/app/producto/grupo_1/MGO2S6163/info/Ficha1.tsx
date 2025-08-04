@@ -16,7 +16,23 @@ const Ficha1 = () => {
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
-                        
+                        <table className="mx-auto max-w-5xl md:px-5">
+                            <tbody>
+
+                                <th>
+                                    <td className="font-semibold">ESPECIFICACIONES JASO</td>
+                                    <td className="font-semibold">Tasa de Tratamiento (%wt)</td>
+                                </th>
+                                <tr>
+                                    <td className="font-semibold">FB</td>
+                                    <td className="font-semibold">4.0%</td>
+                                </tr>
+                                <tr>
+                                    <td className="font-semibold">FC</td>
+                                    <td className="font-semibold">5.5%</td>
+                                </tr>
+                            </tbody>
+                        </table>
 
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Envasado, Almacenamiento, Transporte</h2>
 
