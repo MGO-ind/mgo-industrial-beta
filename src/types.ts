@@ -70,7 +70,7 @@ export interface IBtnFichasLink {
 export interface IDataFicha {
     fichaTitle: string;
     fichaDescription: string;
-    fichaCuidados: string;
+
 }
 
 

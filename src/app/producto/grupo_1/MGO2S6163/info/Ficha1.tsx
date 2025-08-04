@@ -11,12 +11,20 @@ const Ficha1 = () => {
 
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
-
+                        
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Descripción</h2>
                         <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaDescription}</p>
-                        <p className="mx-auto max-w-xl md:px-5"></p>
-                        <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Cuidados</h2>
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Especificaciones</h2>
 
-                        <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaCuidados}</p>
+                        <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">Envasado, Almacenamiento, Transporte</h2>
+
+                        <p className="mx-auto max-w-xl md:px-5">
+                            <ul className="list-disc pl-5">
+                                <li>Envasado en tambores de acero con un peso neto de 180 kg/tambor.</li>
+                                <li>La temperatura de almacenamiento no debe superar los 45 ℃ y la temperatura de carga o descarga no debe de exceder los 65 ℃.</li>
+                                <li>El producto debe ser transportado en vehículos limpios y secos, evitando la exposición a la luz solar directa.</li>
+                            </ul>
+                        </p>
 
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
             
