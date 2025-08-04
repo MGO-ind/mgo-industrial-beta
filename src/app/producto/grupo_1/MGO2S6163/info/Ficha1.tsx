@@ -11,7 +11,7 @@ const Ficha1 = () => {
 
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
-                        <h3 className="text-xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-5">Paquete de Aditivos para Aceites de Motores de 2 Tiempos Enfriados por Aire</h3>
+                        <h3 className="text-xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4">Paquete de Aditivos para Aceites de Motores de 2 Tiempos Enfriados por Aire</h3>
 
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-3">Descripción</h3>
                         <p className="mx-auto max-w-xl md:px-5">{DataFicha[0].fichaDescription}</p>
