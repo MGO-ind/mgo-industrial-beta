@@ -17,7 +17,7 @@ const Ficha1 = () => {
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
                         
-                        <div className="relative overflow-x-auto shadow-md rounded-xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
                             <table className="w-full rtl:text-right text-zinc-500 dark:text-zinc-400">
                                 <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-zinc-400">
                                     <tr>
