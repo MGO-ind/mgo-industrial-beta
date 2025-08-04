@@ -16,23 +16,26 @@ const Ficha1 = () => {
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
-                        <table className="mx-auto max-w-5xl md:px-5">
-                            <tbody className="text-center align-middle rounded-full border border-gray-300">
+                        <div className="relative overflow-x-auto shadow-md sm:rounded-lg mx-auto max-w-5xl md:px-5">
+                        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                            <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                 <tr>
-                                    <th className="font-semibold border border-gray-300 ">ESPECIFICACIONES JASO</th>
-                                    <th className="font-semibold border border-gray-300">Tasa de Tratamiento (%wt)</th>
+                                    <th className="px-6 py-3">ESPECIFICACIONES JASO</th>
+                                    <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
                                 </tr>
-                                <tr>
-                                    <td className="justify-center text-center border border-gray-300">FB</td>
-                                    <td className="justify-center text-center border border-gray-300">4.0%</td>
+                            </thead>
+                            <tbody>
+                                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">FB</td>
+                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">4.0%</td>
                                 </tr>
-                                <tr>
-                                    <td className="justify-center text-center border border-gray-300">FC</td>
-                                    <td className="justify-center text-center border border-gray-300">5.5%</td>
+                                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">FC</td>
+                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">5.5%</td>
                                 </tr>
                             </tbody>
                         </table>
-
+                        </div>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Envasado, Almacenamiento, Transporte</h2>
 
                         <p className="mx-auto max-w-xl md:px-5">
