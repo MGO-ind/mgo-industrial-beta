@@ -16,25 +16,26 @@ const Ficha1 = () => {
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
-                        <div className="relative overflow-x-auto shadow-md sm:rounded-lg mx-auto max-w-5xl md:px-5">
-                        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                            <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                <tr>
-                                    <th className="px-6 py-3">ESPECIFICACIONES JASO</th>
-                                    <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">FB</td>
-                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">4.0%</td>
-                                </tr>
-                                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
-                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">FC</td>
-                                    <td className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">5.5%</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        
+                        <div className="relative overflow-x-auto shadow-md sm:rounded-lg mx-auto md:px-5">
+                            <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                                <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                    <tr>
+                                        <th className="px-6 py-3">ESPECIFICACIONES JASO</th>
+                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                        <td className="px-6 py-3">FB</td>
+                                        <td className="px-6 py-3">4.0%</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
+                                        <td className="px-6 py-3">FC</td>
+                                        <td className="px-6 py-3">5.5%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Envasado, Almacenamiento, Transporte</h2>
 
