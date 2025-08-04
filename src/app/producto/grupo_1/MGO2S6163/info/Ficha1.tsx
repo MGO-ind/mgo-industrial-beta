@@ -40,18 +40,60 @@ const Ficha1 = () => {
                             <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
                                 <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
                                     <tr>
-                                        <th className="px-6 py-3">ESPECIFICACIONES JASO</th>
-                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                        <th className="px-6 py-3">Pruebas</th>
+                                        <th className="px-6 py-3">Métodos ASTM</th>
+                                        <th className="px-6 py-3">Especificaciones</th>
+                                        <th className="px-6 py-3">Resultados</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
-                                        <td className="px-6 py-3">FB</td>
-                                        <td className="px-6 py-3">4.0%</td>
+                                        <td className="px-6 py-3">Apariencia</td>
+                                        <td className="px-6 py-3">Inspección Visual</td>
+                                        <td className="px-6 py-3">Líquido viscoso café</td>
+                                        <td className="px-6 py-3">Líquido viscoso café</td>
                                     </tr>
                                     <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
-                                        <td className="px-6 py-3">FC</td>
-                                        <td className="px-6 py-3">5.5%</td>
+                                        <td className="px-6 py-3">Densidad @20 ℃, kg/m3</td>
+                                        <td className="px-6 py-3">D4052</td>
+                                        <td className="px-6 py-3">885 - 925</td>
+                                        <td className="px-6 py-3">905</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Viscosidad Cinemática @100 ℃, mm2/s</td>
+                                        <td className="px-6 py-3">D445</td>
+                                        <td className="px-6 py-3">Reportar</td>
+                                        <td className="px-6 py-3">96</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Punto de Inflamación (COC), ℃</td>
+                                        <td className="px-6 py-3">D92</td>
+                                        <td className="px-6 py-3">≥180</td>
+                                        <td className="px-6 py-3">236</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Número Total de Base, (mg KOH/g)</td>
+                                        <td className="px-6 py-3">D2896</td>
+                                        <td className="px-6 py-3">37-47</td>
+                                        <td className="px-6 py-3">42</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de Ca, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">0.79 - 0.97</td>
+                                        <td className="px-6 py-3">0.88</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de N, % peso</td>
+                                        <td className="px-6 py-3">D5762</td>
+                                        <td className="px-6 py-3">0.73 - 0.99</td>
+                                        <td className="px-6 py-3">0.86</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3"></td>
+                                        <td className="px-6 py-3"></td>
+                                        <td className="px-6 py-3"></td>
+                                        <td className="px-6 py-3"></td>
                                     </tr>
                                 </tbody>
                             </table>
