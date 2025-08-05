@@ -11,20 +11,103 @@ const Ficha1 = () => {
 
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
-                        <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4">Paquete de Aditivos para Aceites de Motores de 2 Tiempos Enfriados por Aire</h3>
-
+                        <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4">Paquete de Aditivos para Aceites de Motores a Diesel</h3>
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
-                        
-
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
+                                    <tr>
+                                        <th className="px-6 py-3">ESPECIFICACIONES</th>
+                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">CI-4</td>
+                                        <td className="px-6 py-3">15W-40, 20W-50</td>
+                                        <td className="px-6 py-3">10.85%</td>
+                                    </tr>     
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
+                                    <tr>
+                                        <th className="px-6 py-3">Pruebas</th>
+                                        <th className="px-6 py-3">Métodos ASTM</th>
+                                        <th className="px-6 py-3">Especificaciones</th>
+                                        <th className="px-6 py-3">Resultados</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Apariencia</td>
+                                        <td className="px-6 py-3">Inspección visual</td>
+                                        <td className="px-6 py-3">Líquido café viscoso</td>
+                                        <td className="px-6 py-3">Líquido café viscoso</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Densidad @20 ℃, kg/m3</td>
+                                        <td className="px-6 py-3">D4052</td>
+                                        <td className="px-6 py-3">952-992</td>
+                                        <td className="px-6 py-3">972</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Viscosidad Cinemática @100 ℃, mm2/s</td>
+                                        <td className="px-6 py-3">D445</td>
+                                        <td className="px-6 py-3">Reportar</td>
+                                        <td className="px-6 py-3">146</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Punto de Inflamación (COC), ℃</td>
+                                        <td className="px-6 py-3">D92</td>
+                                        <td className="px-6 py-3">≥ 180</td>
+                                        <td className="px-6 py-3">220</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Número Total de Base, (mg KOH/g)</td>
+                                        <td className="px-6 py-3">D2896</td>
+                                        <td className="px-6 py-3">75 - 91</td>
+                                        <td className="px-6 py-3">83</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de Ca, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">2.30 - 2.81</td>
+                                        <td className="px-6 py-3">2.55</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de Zn, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">1.18 - 1.44</td>
+                                        <td className="px-6 py-3">1.31</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de P, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">1.04 - 1.28</td>
+                                        <td className="px-6 py-3">1.16</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de Mo, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">0.042 - 0.062</td>
+                                        <td className="px-6 py-3">0.052</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Envasado, Almacenamiento, Transporte</h2>
 
                         <p className="mx-auto max-w-xl md:px-5">
                             <ul className="list-disc pl-5">
                                 <li>Envasado en tambores de acero con un peso neto de 180 kg/tambor.</li>
                                 <li>La temperatura de almacenamiento no debe superar los 45 ℃ y la temperatura de carga o descarga no debe de exceder los 65 ℃.</li>
-                                <li>El producto debe ser transportado en vehículos limpios y secos, evitando la exposición a la luz solar directa.</li>
+                                <li>El producto no es flamable, ni explosivo, ni corrosivo. Es igual a los demás productos derivados del petróleo en términos de seguridad, protección ambiental, eso y otros aspectos. No requiere protección especial.</li>
                             </ul>
                         </p>
 
