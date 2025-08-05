@@ -110,8 +110,6 @@ const Ficha1 = () => {
                                 <a href="../grupo_1" className="absolute inset-0 -z-10 w-full ">
                                     <button type="button" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-lg p-2.5 text-center me-2 mb-2">
                                         <FaArrowLeft />
-                                 
-
                                     </button>
                                 </a> 
                                 </div>
