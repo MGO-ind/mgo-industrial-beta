@@ -1,4 +1,5 @@
 import { DataFicha } from "./DataFicha";
+import { FaArrowLeft } from "react-icons/fa";
 
 const Ficha1 = () => {
     return (
@@ -108,10 +109,8 @@ const Ficha1 = () => {
                                 <div className="h-full flex flex-col items-center justify-center text-center px-5">
                                 <a href="../grupo_1" className="absolute inset-0 -z-10 w-full ">
                                     <button type="button" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-lg p-2.5 text-center me-2 mb-2">
-                                        <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                                        </svg>
-                                        <span className="ml-2"></span>
+                                        <FaArrowLeft />
+                                 
 
                                     </button>
                                 </a> 
