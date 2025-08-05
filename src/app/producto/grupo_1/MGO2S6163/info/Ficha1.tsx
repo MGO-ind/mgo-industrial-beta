@@ -89,12 +89,7 @@ const Ficha1 = () => {
                                         <td className="px-6 py-3">0.73 - 0.99</td>
                                         <td className="px-6 py-3">0.86</td>
                                     </tr>
-                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
-                                        <td className="px-6 py-3"></td>
-                                        <td className="px-6 py-3"></td>
-                                        <td className="px-6 py-3"></td>
-                                        <td className="px-6 py-3"></td>
-                                    </tr>
+                                   
                                 </tbody>
                             </table>
                         </div>
