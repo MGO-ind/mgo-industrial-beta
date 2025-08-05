@@ -108,7 +108,7 @@ const Ficha1 = () => {
                             </ul>
                         </p>
 
-                        <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
+                        <div className="mt-4 flex flex-colitems-center">
                             <section className="mt-1 mb-5 lg:my-4">
                                 <div className="relative w-full z-30 mx-auto py-2 sm:py-2 items-center justify-center">
                                     <div className="h-full flex flex-col items-center justify-center text-center px-5">
