@@ -1,3 +1,4 @@
+import { FaArrowLeft } from "react-icons/fa6";
 import { DataFicha } from "./DataFicha";
 
 const Ficha1 = () => {
@@ -16,7 +17,87 @@ const Ficha1 = () => {
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
-                        
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
+                                    <tr>
+                                        <th className="px-6 py-3">API Performance</th>
+                                        <th className="px-6 py-3">Grado de Viscosidad SAE</th>
+                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">CK-4 CJ-4 </td>
+                                        <td className="px-6 py-3"> 10W-30, 10W-40, 15W-40, 20W-50 </td>
+                                        <td className="px-6 py-3">15.1%</td>
+                                    </tr>     
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
+                                    <tr>
+                                        <th className="px-6 py-3">Pruebas</th>
+                                        <th className="px-6 py-3">Métodos ASTM</th>
+                                        <th className="px-6 py-3">Especificaciones</th>
+                                        <th className="px-6 py-3">Resultados</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Apariencia</td>
+                                        <td className="px-6 py-3">Inspección Visual</td>
+                                        <td className="px-6 py-3">Líquido café viscoso</td>
+                                        <td className="px-6 py-3">Líquido café viscoso</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Densidad @20 ℃, kg/m3</td>
+                                        <td className="px-6 py-3">D4052</td>
+                                        <td className="px-6 py-3">935 - 975</td>
+                                        <td className="px-6 py-3">955</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Viscosidad Cinemática @100 ℃, mm2/s</td>
+                                        <td className="px-6 py-3">D445</td>
+                                        <td className="px-6 py-3">Reportar</td>
+                                        <td className="px-6 py-3">175</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Punto de Inflamación (COC), ℃</td>
+                                        <td className="px-6 py-3">D92</td>
+                                        <td className="px-6 py-3">≥180</td>
+                                        <td className="px-6 py-3">216</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Número Total de Base, (mg KOH/g)</td>
+                                        <td className="px-6 py-3">D2896</td>
+                                        <td className="px-6 py-3">54 - 66</td>
+                                        <td className="px-6 py-3">60</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de Ca, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">1.40 - 1.71</td>
+                                        <td className="px-6 py-3">1.55</td>
+                                    </tr>                                    
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de Zn, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">0.75 - 0.91</td>
+                                        <td className="px-6 py-3">0.83</td>                                        
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de P, % peso</td>
+                                        <td className="px-6 py-3">D4951</td>
+                                        <td className="px-6 py-3">0.66 - 0.80</td>
+                                        <td className="px-6 py-3">0.73</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
 
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Envasado, Almacenamiento, Transporte</h2>
 
@@ -28,10 +109,17 @@ const Ficha1 = () => {
                             </ul>
                         </p>
 
-                        <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
-            
-                       
-                        </div>
+                        <section className="mt-1 mb-5 lg:my-4">
+                            <div className="relative w-full z-30 mx-auto py-2 sm:py-2 items-center justify-center">
+                                <div className="h-full flex flex-col items-center justify-center text-center px-5">
+                                <a href="../grupo_1" className="absolute inset-0 -z-10 w-full ">
+                                    <button type="button" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-lg p-3.5 text-center me-2 mb-2">
+                                        <FaArrowLeft />
+                                    </button>
+                                </a> 
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
