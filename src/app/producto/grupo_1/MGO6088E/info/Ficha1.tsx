@@ -12,7 +12,7 @@ const Ficha1 = () => {
 
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
-                        <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4">Paquete de Aditivos para Aceites de Motores de 2 Tiempos Enfriados por Aire</h3>
+                        <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4">Paquete de Aditivos para Aceites de Motores a Diesel</h3>
 
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
@@ -105,7 +105,7 @@ const Ficha1 = () => {
                             <ul className="list-disc pl-5">
                                 <li>Envasado en tambores de acero con un peso neto de 180 kg/tambor.</li>
                                 <li>La temperatura de almacenamiento no debe superar los 45 ℃ y la temperatura de carga o descarga no debe de exceder los 65 ℃.</li>
-                                <li>El producto debe ser transportado en vehículos limpios y secos, evitando la exposición a la luz solar directa.</li>
+                                <li>El producto no es flamable, ni explosivo, ni corrosivo. Es igual a los demás productos derivados del petróleo en términos de seguridad, protección ambiental, eso y otros aspectos. No requiere protección especial.</li>
                             </ul>
                         </p>
 
