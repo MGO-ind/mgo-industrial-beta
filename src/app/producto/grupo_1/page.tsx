@@ -1,14 +1,17 @@
 "use client";
 
-import { useState } from "react";
-import { motion } from "framer-motion";
 import Container from "@/components/Container";
 import FichaInfoPrev from "@/app/producto/grupo_1/Gpo1Fichas/fichaPrev";
 import { btnFichas } from "./Gpo1Fichas/LinkFichasTecnicas";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const Products: React.FC = () => {
-  const [currentIndex] = useState(0);
-
   return (
     <>
       <div className="mt-20 mb-10">
@@ -16,19 +19,30 @@ const Products: React.FC = () => {
           <h1 className="text-3xl font-bold mb-6">Nuestros Productos</h1>
           <p className="text-lg mb-8">Descubre nuestra gama de productos diseñados para optimizar tu eficiencia energética.</p>
           
-          <div className="relative overflow-hidden">
-            <motion.div 
-              className="flex"
-              animate={{ x: -currentIndex * 100 + "%" }}
-              transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            >
-              {btnFichas.map((ficha, index) => (
-                <div key={index} className="w-full flex-shrink-0 lg:w-1/3 px-4">
-                  <FichaInfoPrev PrevFichas={ficha} />
-                </div>
-              ))}
-            </motion.div>
-          </div>
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={30}
+            slidesPerView={3}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }}
+          >
+            {btnFichas.map((ficha, index) => (
+              <SwiperSlide key={index}>
+                <FichaInfoPrev PrevFichas={ficha} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </Container>
       </div>
     </>
