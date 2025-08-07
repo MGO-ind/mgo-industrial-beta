@@ -3,6 +3,7 @@ import { GiBottledBolt } from "react-icons/gi";
 import { FaShieldAlt, FaCarSide, FaGasPump } from "react-icons/fa";
 import { LuPackage } from "react-icons/lu";
 import { PiEngineBold } from "react-icons/pi";
+import { MdOutlineTimer } from "react-icons/md";
 
 
 import { IBenefit } from "@/types"
@@ -72,7 +73,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Reduce tiempos y costos de formulación",
                 description: "Minimiza la necesidad de pruebas extensas gracias a su compatibilidad y efectividad comprobada.",
-                icon: <FiTarget size={26} />
+                icon: <MdOutlineTimer size={26} />
             },
             {
                 title: "Garantiza desempeño técnico constante",
@@ -92,7 +93,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Mayor protección en condiciones severas",
                 description: "Protege componentes metálicos contra fricción, desgaste y corrosión en entornos industriales demandantes.",
-                icon: <FiBarChart2 size={26} />
+                icon: <FaShieldAlt size={26} />
             },
             {
                 title: "Extiende la vida útil del lubricante",
