@@ -1,4 +1,7 @@
 import { FiBarChart2, FiBriefcase, FiTarget, FiTrendingUp} from "react-icons/fi";
+import { GiBottledBolt } from "react-icons/gi";
+import { FaShieldAlt } from "react-icons/fa";
+
 
 import { IBenefit } from "@/types"
 
@@ -11,12 +14,12 @@ export const benefits: IBenefit[] = [
             {
                 title: "Mejoran el rendimiento y eficiencia del combustible",
                 description: "Optimiza la combustión y reduce el consumo, lo que se traduce en un mejor aprovechamiento energético.",
-                icon: <FiBarChart2 size={26} />
+                icon: <GiBottledBolt size={26} />
             },
             {
                 title: "Protegen equipos y sistemas",
                 description: "Previenen la corrosión, formación de depósitos y desgaste prematuro en motores y líneas de conducción.",
-                icon: <FiTrendingUp size={26} />
+                icon: <FaShieldAlt  size={26} />
             },
             {
                 title: "Prolongan la vida útil del producto",
