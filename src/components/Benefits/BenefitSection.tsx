@@ -89,7 +89,7 @@ const BenefitSection: React.FC<Props> = ({ benefit,  imageAtRight }: Props) => {
                             <a href={btHref} rel="noopener noreferrer">
                                 <button
                                     type="button"
-                                    className="flex items-center text-white justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit bg-black"
+                                    className="items-center text-white justify-center mt-3 px-6 h-14 rounded-full w-full bg-black"
                                 >
                                     <div className="mr-3">
                                         
