@@ -1,7 +1,8 @@
 import { FiBarChart2, FiTarget, FiTrendingUp} from "react-icons/fi";
 import { GiBottledBolt } from "react-icons/gi";
-import { FaShieldAlt } from "react-icons/fa";
+import { FaShieldAlt, FaCarSide, FaGasPump } from "react-icons/fa";
 import { LuPackage } from "react-icons/lu";
+import { PiEngineBold } from "react-icons/pi";
 
 
 import { IBenefit } from "@/types"
@@ -41,12 +42,12 @@ export const benefits: IBenefit[] = [
             {
                 title: "Limpieza interna del motor",
                 description: "Elimina y previene la formación de depósitos en inyectores, válvulas y cámaras de combustión.",
-                icon: <FiBarChart2 size={26} />
+                icon: <PiEngineBold size={26} />
             },
             {
                 title: "Mayor vida útil del motor",
                 description: "Reduce la fricción y el desgaste, protegiendo componentes críticos bajo condiciones severas..",
-                icon: <FiTarget size={26} />
+                icon: <FaCarSide size={26} />
             },
             {
                 title: "Mejora el rendimiento del combustible",
@@ -76,7 +77,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Garantiza desempeño técnico constante",
                 description: "Mejora la estabilidad, durabilidad y funcionalidad de lubricantes y combustibles bajo condiciones operativas exigentes.",
-                icon: <FiTrendingUp size={26} />
+                icon: <FaGasPump size={26} />
             }
         ],
         imageSrc: "/images/3-web.png",
