@@ -102,7 +102,7 @@ export const benefits: IBenefit[] = [
         ],
         imageSrc: "/images/parafina.png",
         btnName: "Conoce la parefina",
-        btHref: "/producto/grupo_2", 
+        btHref: "/producto/grupo_4", 
         
     },
 ]
