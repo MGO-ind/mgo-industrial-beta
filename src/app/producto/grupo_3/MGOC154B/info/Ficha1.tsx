@@ -1,3 +1,4 @@
+import { FaArrowLeft } from "react-icons/fa6";
 import { DataFicha } from "./DataFicha";
 
 const Ficha1 = () => {
@@ -27,10 +28,17 @@ const Ficha1 = () => {
                             </ul>
                         </p>
 
-                        <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
-            
-                       
-                        </div>
+                        <section className="mt-1 mb-5 lg:my-4">
+                            <div className="relative w-full z-30 mx-auto py-2 sm:py-2 items-center justify-center">
+                                <div className="h-full flex flex-col items-center justify-center text-center px-5">
+                                <a href="../grupo_3" className="absolute inset-0 -z-10 w-full ">
+                                    <button type="button" className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-full text-lg p-3.5 text-center me-2 mb-2">
+                                        <FaArrowLeft />
+                                    </button>
+                                </a> 
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
