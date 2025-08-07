@@ -42,9 +42,7 @@ const Header: React.FC = () => {
                         ))}
                         <li>
                             <Link href="https://wa.me/13311962046" target="_blank" className="text-white inline-flex items-center bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">
-                            <FaWhatsapp />
-                                WhatsApp
-                                
+                            <FaWhatsapp size={20} /> <span className="ms-2">WhatsApp</span>
                             </Link>
                         </li>
                     </ul>
