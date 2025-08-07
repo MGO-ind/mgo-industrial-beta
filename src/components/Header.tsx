@@ -9,6 +9,7 @@ import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
 import Container from './Container';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
+import { FaWhatsapp } from 'react-icons/fa6';
 //import { FaWhatsapp } from 'react-icons/fa6';
 
 const Header: React.FC = () => {
@@ -40,8 +41,8 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="https://wa.me/13311962046" target="_blank" className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">
-                                {/*WhatsApp <FaWhatsapp />*/} 
+                            <Link href="https://wa.me/13311962046" target="_blank" className="text-white inline-flex items-center bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">
+                            <FaWhatsapp />
                                 WhatsApp
                                 
                             </Link>
