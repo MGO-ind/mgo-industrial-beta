@@ -12,20 +12,69 @@ const Ficha1 = () => {
 
                     <div className="h-full flex flex-col items-center justify-center text-white text-center px-5">
                         <h2 className="text-2xl sm:text-3xl md:text-5xl md:leading-tight font-semibold mb-4 max-w-2xl">{DataFicha[0].fichaTitle}</h2>
-                        <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4">Paquete de Aditivos para Aceites de Motores de 2 Tiempos Enfriados por Aire</h3>
-
+                        <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4">Depresor del Punto de Fluidez</h3>
                         <h3 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Descripción</h3>
                         <p className="mx-auto max-w-5xl md:px-5">{DataFicha[0].fichaDescription}</p>
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
+                                    <tr>
+                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">0.1 – 0.5%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Especificaciones</h2>
-                        
+                        <div className="relative overflow-x-auto shadow-md rounded-2xl text-xl max-w-5xl mx-auto mb-4 md:px-5">
+                            <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
+                                <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
+                                    <tr>
+                                        <th className="px-6 py-3">Pruebas</th>
+                                        <th className="px-6 py-3">Métodos ASTM</th>
+                                        <th className="px-6 py-3">Especificaciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Apariencia</td>
+                                        <td className="px-6 py-3">Inspección Visual</td>
+                                        <td className="px-6 py-3">Líquido claro transparente</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Viscosidad Cinemática @100 ºC</td>
+                                        <td className="px-6 py-3">D445</td>
+                                        <td className="px-6 py-3">100-200</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Punto de Inflamación (COC), °C</td>
+                                        <td className="px-6 py-3">D92</td>
+                                        <td className="px-6 py-3">100 °C (min)</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Contenido de Agua</td>
+                                        <td className="px-6 py-3">D95</td>
+                                        <td className="px-6 py-3">/</td>
+                                    </tr>
+                                    <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
+                                        <td className="px-6 py-3">Reducción del Punto de Fluidez</td>
+                                        <td className="px-6 py-3"> D2386</td>
+                                        <td className="px-6 py-3">15 (min)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Envasado, Almacenamiento, Transporte</h2>
 
                         <p className="mx-auto max-w-xl md:px-5">
                             <ul className="list-disc pl-5">
-                                <li>Envasado en tambores de acero con un peso neto de 180 kg/tambor.</li>
-                                <li>La temperatura de almacenamiento no debe superar los 45 ℃ y la temperatura de carga o descarga no debe de exceder los 65 ℃.</li>
-                                <li>El producto debe ser transportado en vehículos limpios y secos, evitando la exposición a la luz solar directa.</li>
+                                <li>Envasado en tambores de acero de 200 Lt</li>
+                                <li>La temperatura de almacenamiento no debe exceder los 50 °C.</li>
                             </ul>
                         </p>
                         <section className="mt-1 mb-5 lg:my-4">
