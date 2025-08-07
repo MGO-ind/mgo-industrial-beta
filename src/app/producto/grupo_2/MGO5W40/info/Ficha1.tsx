@@ -25,7 +25,7 @@ const Ficha1 = () => {
                         </p>
                         <h2 className="text-xl sm:text-1xl md:text-2xl md:leading-tight font-semibold mb-4 max-w-5xl">Niveles de calidad</h2>
                         <p className="mx-auto max-w-5xl md:px-5">
-                            <ul className="list-disc pl-5 columns-3">
+                            <ul className="list-disc pl-5 px-1 columns-3">
                                 <li>API SN/CF, API CK-4, API CI-4</li>
                                 <li>ACEA A3/B3-04, A3/B4-04, C3</li>
                                 <li>MB 229.31</li>
