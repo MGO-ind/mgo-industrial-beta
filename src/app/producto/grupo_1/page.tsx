@@ -20,6 +20,7 @@ const Products: React.FC = () => {
           <p className="text-lg mb-8">Descubre nuestra gama de productos diseñados para optimizar tu eficiencia energética.</p>
           
           <Swiper
+          className="custom-swiper"
             modules={[Navigation, Pagination]}
             spaceBetween={30}
             slidesPerView={3}
