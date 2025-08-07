@@ -26,7 +26,7 @@ export const benefits: IBenefit[] = [
         ],
        
         
-        imageSrc: "/images/oil2.png",      
+        imageSrc: "/images/1-web.png",      
         btnName: "Conoce Nuestros Productos",
         btHref: "/producto/grupo_1", 
     },
@@ -50,7 +50,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/parafina.png",
+        imageSrc: "/images/2-web.png",
         btnName: "Conoce la parefina",
         btHref: "/producto/grupo_2", 
         
@@ -75,7 +75,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/hero-mockup.png",
+        imageSrc: "/images/3-web.png",
         btnName: "Conoce Nuestros Aditivos",
         btHref: "/producto/grupo_3", 
         
@@ -100,7 +100,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/parafina.png",
+        imageSrc: "/images/4-web.png",
         btnName: "Conoce la parefina",
         btHref: "/producto/grupo_4", 
         
