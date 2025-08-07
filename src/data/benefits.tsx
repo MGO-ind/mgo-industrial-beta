@@ -1,6 +1,7 @@
-import { FiBarChart2, FiBriefcase, FiTarget, FiTrendingUp} from "react-icons/fi";
+import { FiBarChart2, FiTarget, FiTrendingUp} from "react-icons/fi";
 import { GiBottledBolt } from "react-icons/gi";
 import { FaShieldAlt } from "react-icons/fa";
+import { LuPackage } from "react-icons/lu";
 
 
 import { IBenefit } from "@/types"
@@ -24,7 +25,7 @@ export const benefits: IBenefit[] = [
             {
                 title: "Prolongan la vida útil del producto",
                 description: "Aumentan la estabilidad térmica y química de los combustibles o lubricantes, asegurando un almacenamiento y desempeño más duraderos.",
-                icon: <FiBriefcase size={26} />
+                icon: <LuPackage size={26} />
             }
         ],
        
