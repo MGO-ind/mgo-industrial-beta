@@ -40,21 +40,31 @@ const Ficha1 = () => {
                             <table className="w-full rtl:text-right text-zinc-500 dark:text-white">
                                 <thead className="text-zinc-700 uppercase bg-gray-50 dark:bg-zinc-700 dark:text-white">
                                     <tr>
-                                        <th className="px-6 py-3">ESPECIFICACIONES</th>
-                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
-                                        <th className="px-6 py-3">Tasa de Tratamiento (%wt)</th>
+                                        <th className="px-6 py-3">Prueba</th>
+                                        <th className="px-6 py-3">Especificación</th>
+                                        <th className="px-6 py-3">Método</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
-                                        <td className="px-6 py-3"></td>
-                                        <td className="px-6 py-3"></td>
+                                        <td className="px-6 py-3">
+                                            GRADO SAE
+                                        </td>
+                                        <td className="px-6 py-3">
+                                            5W40
+                                        </td>
                                         <td className="px-6 py-3"></td>
                                     </tr>
                                     <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
-                                        <td className="px-6 py-3"></td>
-                                        <td className="px-6 py-3"></td>
-                                        <td className="px-6 py-3"></td>
+                                        <td className="px-6 py-3">
+                                            Densidad a 15°C, g/mL
+                                        </td>
+                                        <td className="px-6 py-3">
+                                            0.853
+                                        </td>
+                                        <td className="px-6 py-3">
+                                            ASTM D4052
+                                        </td>
                                     </tr>
                                     <tr className="bg-white border-b dark:bg-zinc-800 dark:border-zinc-300 border-zinc-500">
                                         <td className="px-6 py-3"></td>
